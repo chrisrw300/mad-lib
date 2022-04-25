@@ -7,6 +7,10 @@
     display: none;
 }
 
+.answer {
+    color: red;
+}
+
 body {
     background: var(--white);
     font-family: 'Roboto Slab', serif;
