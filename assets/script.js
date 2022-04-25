@@ -19,4 +19,9 @@ function startLib() {
     btn.classList.add('btn');
     bodyEl.appendChild(Noun1);
     bodyEl.appendChild(btn);
+    btn.addEventListener('click', enterValue);
+}
+
+function enterValue(Noun1) {
+    console.log(Noun1.innerHTML);
 }
